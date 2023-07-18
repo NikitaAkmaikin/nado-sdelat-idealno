@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  line-height: normal;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-underline-position: under;
+}
+
+img {
+  width: 100%;
+}
